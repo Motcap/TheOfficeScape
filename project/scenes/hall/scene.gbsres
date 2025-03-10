@@ -1,0 +1,30 @@
+{
+  "_resourceType": "scene",
+  "id": "1f619f46-aa85-41a9-90af-a36157c0c005",
+  "_index": 0,
+  "name": "Hall",
+  "backgroundId": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_1",
+  "x": 552,
+  "y": 32,
+  "script": [
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "060b819c-16c7-496c-93c6-0165dd69ff37"
+      },
+      "id": "d41defd0-f83e-49b6-b5d7-36df4f7fddd1"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

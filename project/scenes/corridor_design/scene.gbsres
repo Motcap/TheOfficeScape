@@ -1,0 +1,22 @@
+{
+  "_resourceType": "scene",
+  "id": "20039e96-3282-4ebd-a641-9b4c87f27c70",
+  "_index": 14,
+  "name": "Corridor Design",
+  "backgroundId": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_15",
+  "x": 984,
+  "y": 424,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

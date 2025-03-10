@@ -1,0 +1,22 @@
+{
+  "_resourceType": "scene",
+  "id": "421f0b7a-4520-4e8f-9daf-16177c0f52ed",
+  "_index": 13,
+  "name": "Office_Boss",
+  "backgroundId": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_14",
+  "x": 344,
+  "y": 216,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

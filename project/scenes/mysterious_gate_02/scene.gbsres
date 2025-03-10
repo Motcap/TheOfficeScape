@@ -1,0 +1,22 @@
+{
+  "_resourceType": "scene",
+  "id": "2161c362-74b7-4102-bc56-4b795f7bfec9",
+  "_index": 9,
+  "name": "Mysterious Gate_02",
+  "backgroundId": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_10",
+  "x": 352,
+  "y": 1008,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

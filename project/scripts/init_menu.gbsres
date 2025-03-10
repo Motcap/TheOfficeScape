@@ -1,0 +1,49 @@
+{
+  "_resourceType": "script",
+  "id": "060b819c-16c7-496c-93c6-0165dd69ff37",
+  "name": "Init Menu",
+  "description": "Attach Menu To Start Button\n",
+  "variables": {},
+  "actors": {},
+  "symbol": "script_1",
+  "script": [
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "b",
+          "start"
+        ],
+        "override": true,
+        "__scriptTabs": "press"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SCENE_PUSH_STATE",
+            "args": {},
+            "id": "a015082b-a94d-43bb-bf55-ad115457075a"
+          },
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "1f619f46-aa85-41a9-90af-a36157c0c005",
+              "x": {
+                "type": "number",
+                "value": 17
+              },
+              "y": {
+                "type": "number",
+                "value": 15
+              },
+              "direction": "left",
+              "fadeSpeed": "2"
+            },
+            "id": "c80c0224-e25f-4e01-8cb1-263dc38dd41a"
+          }
+        ]
+      },
+      "id": "618805d8-9e64-4193-9d54-389f1ab6b5c7"
+    }
+  ]
+}

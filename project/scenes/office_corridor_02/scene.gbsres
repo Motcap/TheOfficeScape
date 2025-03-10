@@ -1,0 +1,46 @@
+{
+  "_resourceType": "scene",
+  "id": "d66cad1c-f491-4042-8022-923c5557eb5f",
+  "_index": 17,
+  "name": "Office Corridor_02",
+  "backgroundId": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_18",
+  "x": 760,
+  "y": 432,
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "variable",
+          "value": "0"
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "e8b10baf-1c34-4383-8930-0b66e154997e"
+            },
+            "id": "17706774-6168-4e98-a9c0-166fe9ff43b7"
+          }
+        ],
+        "false": []
+      },
+      "id": "e3784e22-827b-40a7-a369-607f28c0d8fb"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

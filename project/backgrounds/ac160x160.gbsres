@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "b1bda5f8-eb87-4632-84d5-c2853921efb0",
+  "name": "AC160x160",
+  "symbol": "bg_ac160x160",
+  "width": 32,
+  "height": 32,
+  "imageWidth": 256,
+  "imageHeight": 256,
+  "filename": "AC160x160.png",
+  "tileColors": ""
+}

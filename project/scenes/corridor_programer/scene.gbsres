@@ -1,0 +1,22 @@
+{
+  "_resourceType": "scene",
+  "id": "7ef84ed9-e90f-4eb8-8e2f-7003f2137fb8",
+  "_index": 16,
+  "name": "Corridor Programer",
+  "backgroundId": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_17",
+  "x": 1024,
+  "y": 904,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

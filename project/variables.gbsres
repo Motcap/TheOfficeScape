@@ -1,0 +1,70 @@
+{
+  "_resourceType": "variables",
+  "variables": [
+    {
+      "id": "0",
+      "name": "KeyAquarium",
+      "symbol": "var_keyaquarium_1"
+    },
+    {
+      "id": "1",
+      "name": "question_1",
+      "symbol": "var_question_1"
+    },
+    {
+      "id": "2",
+      "name": "question_2",
+      "symbol": "var_question_2"
+    },
+    {
+      "id": "3",
+      "name": "question_3",
+      "symbol": "var_question_3"
+    },
+    {
+      "id": "4",
+      "name": "ACX",
+      "symbol": "var_acx"
+    },
+    {
+      "id": "5",
+      "name": "ACY",
+      "symbol": "var_acy"
+    },
+    {
+      "id": "0f4b1b14-3945-4cf0-8c2c-cb3d63d120a7__L0",
+      "name": "NewGame",
+      "symbol": "var_newgame"
+    },
+    {
+      "id": "3a844ad8-e44f-4fff-a66d-fe7fd5037efe__L0",
+      "name": "SaveGame",
+      "symbol": "var_savegame"
+    },
+    {
+      "id": "beebb0e6-dd94-4223-8cdc-36913a1daaa4__L0",
+      "name": "SaveShock",
+      "symbol": "var_saveshock_0"
+    },
+    {
+      "id": "5817a501-c9db-404a-90eb-0e0037156ac4__L0",
+      "name": "StoreShock",
+      "symbol": "var_storeshock"
+    },
+    {
+      "id": "58d01724-3187-4f8d-a4dd-e0b3ba768f77__L0",
+      "name": "StatisticsShock",
+      "symbol": "var_statisticsshock"
+    },
+    {
+      "id": "e8b10baf-1c34-4383-8930-0b66e154997e__L0",
+      "name": "KeyAquarium",
+      "symbol": "var_keyaquarium"
+    },
+    {
+      "id": "29780429-c473-4ff7-ac9a-449cf2046d56__L0",
+      "name": "KeyAquarium",
+      "symbol": "var_keyaquarium_0"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "_resourceType": "scene",
+  "id": "0f251187-e407-4e8f-808b-9575530edc23",
+  "_index": 3,
+  "name": "Bathroom_02",
+  "backgroundId": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_4",
+  "x": 552,
+  "y": 648,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

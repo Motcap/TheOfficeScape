@@ -1,0 +1,22 @@
+{
+  "_resourceType": "scene",
+  "id": "2fbf1512-78e5-48a6-9be3-b8010b189250",
+  "_index": 18,
+  "name": "Escena Test",
+  "backgroundId": "1dd7bea6-5ff8-4617-9623-0ce7c519e638",
+  "tilesetId": "",
+  "width": 32,
+  "height": 32,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "00400+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_19",
+  "x": 1320,
+  "y": 664,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}
