@@ -13,8 +13,8 @@
   "collisions": "",
   "autoFadeSpeed": 1,
   "symbol": "scene_13",
-  "x": 60,
-  "y": 72,
+  "x": 904,
+  "y": 48,
   "script": [
     {
       "command": "EVENT_ACTOR_DEACTIVATE",
@@ -53,14 +53,14 @@
     {
       "command": "EVENT_SWITCH_SCENE",
       "args": {
-        "sceneId": "fb7c133e-61a0-4b0c-95ef-b4ac2fa50523",
+        "sceneId": "0f4b1b14-3945-4cf0-8c2c-cb3d63d120a7",
         "x": {
           "type": "number",
-          "value": 9
+          "value": 0
         },
         "y": {
           "type": "number",
-          "value": 2
+          "value": 0
         },
         "direction": "",
         "fadeSpeed": "2"

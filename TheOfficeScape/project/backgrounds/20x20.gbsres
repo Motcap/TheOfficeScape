@@ -8,5 +8,6 @@
   "imageWidth": 160,
   "imageHeight": 160,
   "filename": "20x20.png",
-  "tileColors": ""
+  "tileColors": "",
+  "autoColor": false
 }

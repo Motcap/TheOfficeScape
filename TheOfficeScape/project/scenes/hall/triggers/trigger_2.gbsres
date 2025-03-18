@@ -1,26 +1,20 @@
 {
-  "_resourceType": "actor",
-  "id": "e2ea5426-59ed-4616-ab80-da66a6331cc0",
+  "_resourceType": "trigger",
+  "id": "e7bc553d-8789-4695-a849-fd9134b5b9b8",
   "name": "",
-  "frame": 0,
-  "animate": false,
-  "spriteSheetId": "11b5452b-187c-43a3-afb1-a1f4f74ffda2",
   "prefabId": "",
-  "direction": "right",
-  "moveSpeed": 1,
-  "animSpeed": 15,
-  "paletteId": "",
-  "isPinned": false,
-  "persistent": false,
-  "collisionGroup": "",
+  "x": 9,
+  "y": 0,
+  "symbol": "trigger_9",
   "prefabScriptOverrides": {},
-  "symbol": "actor_9",
+  "width": 2,
+  "height": 1,
   "script": [
     {
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "Here you can \nbuy things"
+          "No puedes salir."
         ],
         "__section": "text",
         "avatarId": "",
@@ -39,15 +33,9 @@
         "closeDelayTime": 0.5,
         "closeDelayFrames": 30
       },
-      "id": "7a921c02-a059-467b-b354-605af9872008"
+      "id": "f095a011-11b6-4cdd-bed2-ad95e8b529c6"
     }
   ],
-  "startScript": [],
-  "updateScript": [],
-  "hit1Script": [],
-  "hit2Script": [],
-  "hit3Script": [],
-  "x": 0,
-  "y": 25,
-  "_index": 1
+  "leaveScript": [],
+  "_index": 2
 }

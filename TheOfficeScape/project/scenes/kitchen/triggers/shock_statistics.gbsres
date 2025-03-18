@@ -1,14 +1,14 @@
 {
   "_resourceType": "trigger",
-  "id": "58d01724-3187-4f8d-a4dd-e0b3ba768f77",
+  "id": "07ee20c7-f74f-4b9e-b7b1-1a229a460b36",
   "name": "shock_Statistics",
   "prefabId": "",
   "x": 16,
-  "y": 12,
-  "symbol": "trigger_2",
+  "y": 28,
+  "symbol": "trigger_16",
   "prefabScriptOverrides": {},
   "width": 4,
-  "height": 4,
+  "height": 3,
   "script": [
     {
       "command": "EVENT_IF",
@@ -33,7 +33,7 @@
               "actorId": "$self$",
               "emoteId": "56423c9c-dca0-4f5b-ad92-28e9660d50f1"
             },
-            "id": "3ea894df-866c-484a-be3f-9e804989bff7"
+            "id": "01336f0a-9e47-499c-aee2-6cf8bff48c40"
           },
           {
             "command": "EVENT_SET_VALUE",
@@ -43,12 +43,12 @@
                 "type": "true"
               }
             },
-            "id": "69a16a10-f9cf-40bd-8de2-2264b9113d45"
+            "id": "774ff1b1-26c3-413e-aee0-75fb46ebf719"
           }
         ],
         "false": []
       },
-      "id": "111ed87a-9fa8-4daf-9bb9-2bbfce9e5ffb"
+      "id": "0b96a8c5-40b1-4781-bcc4-3294b9099878"
     }
   ],
   "leaveScript": [],

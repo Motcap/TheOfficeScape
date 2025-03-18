@@ -1,6 +1,6 @@
 {
   "_resourceType": "actor",
-  "id": "3a844ad8-e44f-4fff-a66d-fe7fd5037efe",
+  "id": "0ba420e6-e6de-4bc4-9fab-d73b241f8f49",
   "name": "",
   "frame": 0,
   "animate": false,
@@ -14,7 +14,7 @@
   "persistent": false,
   "collisionGroup": "",
   "prefabScriptOverrides": {},
-  "symbol": "actor_0",
+  "symbol": "actor_8",
   "script": [
     {
       "command": "EVENT_CHOICE",
@@ -23,7 +23,7 @@
         "trueText": "Save Game",
         "falseText": "Cancel"
       },
-      "id": "abe48189-e30c-4a0a-8ac3-dec13c58d3c5"
+      "id": "1b72e29c-2825-4a6d-b537-88bb94ac15a5"
     },
     {
       "command": "EVENT_IF",
@@ -67,17 +67,17 @@
                     "closeDelayTime": 0.5,
                     "closeDelayFrames": 30
                   },
-                  "id": "a58c8853-d945-4b80-92d1-c7bf4dcc5b75"
+                  "id": "cf74ecc7-4613-46ea-baa4-cffa06711f31"
                 }
               ],
               "load": []
             },
-            "id": "4ad09483-bcd7-4756-9cb1-6da8aa8f3109"
+            "id": "ad162aa7-185f-4878-825f-bf3155954cb1"
           }
         ],
         "false": []
       },
-      "id": "79976638-198e-427e-bd4c-fd072ed08f53"
+      "id": "2268c832-9f69-465c-953c-cdc730a416ea"
     }
   ],
   "startScript": [],
@@ -86,6 +86,6 @@
   "hit2Script": [],
   "hit3Script": [],
   "x": 0,
-  "y": 6,
+  "y": 8,
   "_index": 0
 }

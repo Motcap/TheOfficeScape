@@ -8,5 +8,6 @@
   "imageWidth": 512,
   "imageHeight": 512,
   "filename": "64x64.png",
-  "tileColors": ""
+  "tileColors": "",
+  "autoColor": false
 }

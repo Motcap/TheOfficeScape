@@ -1,14 +1,14 @@
 {
   "_resourceType": "trigger",
-  "id": "5817a501-c9db-404a-90eb-0e0037156ac4",
+  "id": "78bac8c0-fdc2-4e65-a602-5965ff59ed1b",
   "name": "shock_Store",
   "prefabId": "",
   "x": 0,
-  "y": 12,
-  "symbol": "trigger_1",
+  "y": 23,
+  "symbol": "trigger_15",
   "prefabScriptOverrides": {},
   "width": 4,
-  "height": 4,
+  "height": 6,
   "script": [
     {
       "command": "EVENT_IF",
@@ -33,7 +33,7 @@
               "actorId": "$self$",
               "emoteId": "56423c9c-dca0-4f5b-ad92-28e9660d50f1"
             },
-            "id": "fd302a40-1879-4f84-ad09-62ffda57bcf2"
+            "id": "5883005c-1d9b-432c-861c-014e6267f59d"
           },
           {
             "command": "EVENT_SET_VALUE",
@@ -43,12 +43,12 @@
                 "type": "true"
               }
             },
-            "id": "30177f26-bd53-4b0a-8f77-1e1261a11ff3"
+            "id": "7a9fbdf8-1ce9-4345-ad82-cce979713524"
           }
         ],
         "false": []
       },
-      "id": "29d72f42-b7a3-4faf-8ded-606a95a6cee2"
+      "id": "348f0654-4aa3-4a21-ad3f-5e695a3cca48"
     }
   ],
   "leaveScript": [],

@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "c1be99b8-841f-40c2-8e9a-c00d0568080d",
+  "name": "Pasillo_2",
+  "symbol": "bg_pasillo_2",
+  "width": 18,
+  "height": 64,
+  "imageWidth": 144,
+  "imageHeight": 512,
+  "filename": "Pasillo_2.png",
+  "tileColors": ""
+}

@@ -65,6 +65,26 @@
       "id": "29780429-c473-4ff7-ac9a-449cf2046d56__L0",
       "name": "KeyAquarium",
       "symbol": "var_keyaquarium_0"
+    },
+    {
+      "id": "0ba420e6-e6de-4bc4-9fab-d73b241f8f49__L0",
+      "name": "SaveGame",
+      "symbol": "var_savegame_0"
+    },
+    {
+      "id": "cb25d3e0-1579-43b5-9574-4a5d2afbd3a4__L0",
+      "name": "SaveShock",
+      "symbol": "var_saveshock"
+    },
+    {
+      "id": "78bac8c0-fdc2-4e65-a602-5965ff59ed1b__L0",
+      "name": "StoreShock",
+      "symbol": "var_storeshock_0"
+    },
+    {
+      "id": "07ee20c7-f74f-4b9e-b7b1-1a229a460b36__L0",
+      "name": "StatisticsShock",
+      "symbol": "var_statisticsshock_0"
     }
   ]
 }

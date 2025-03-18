@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "2a0156b5-f70d-47c8-ad78-548ab3ba0445",
+  "name": "Hall",
+  "symbol": "bg_hall",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "Hall.png",
+  "tileColors": "",
+  "autoColor": false
+}

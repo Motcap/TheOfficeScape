@@ -3,12 +3,12 @@
   "id": "3509230c-0400-4982-8fc9-f2d754549ba2",
   "name": "hall_door",
   "prefabId": "",
-  "x": 9,
-  "y": 17,
+  "x": 19,
+  "y": 11,
   "symbol": "trigger_3",
   "prefabScriptOverrides": {},
-  "width": 2,
-  "height": 1,
+  "width": 1,
+  "height": 6,
   "script": [
     {
       "command": "EVENT_SWITCH_SCENE",

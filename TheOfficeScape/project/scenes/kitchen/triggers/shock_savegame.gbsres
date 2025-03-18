@@ -1,11 +1,11 @@
 {
   "_resourceType": "trigger",
-  "id": "beebb0e6-dd94-4223-8cdc-36913a1daaa4",
+  "id": "cb25d3e0-1579-43b5-9574-4a5d2afbd3a4",
   "name": "shock_SaveGame",
   "prefabId": "",
   "x": 0,
-  "y": 5,
-  "symbol": "trigger_0",
+  "y": 6,
+  "symbol": "trigger_14",
   "prefabScriptOverrides": {},
   "width": 4,
   "height": 4,
@@ -33,7 +33,7 @@
               "actorId": "$self$",
               "emoteId": "56423c9c-dca0-4f5b-ad92-28e9660d50f1"
             },
-            "id": "15cc2ed0-fe67-418b-a5a0-9ec61a8d7dc1"
+            "id": "2d9c49b6-9341-45c4-bc6a-47eb0b209e7b"
           },
           {
             "command": "EVENT_SET_VALUE",
@@ -43,12 +43,12 @@
                 "type": "true"
               }
             },
-            "id": "0b95166c-1c4d-4c9a-bef7-a073a8bfeb0e"
+            "id": "49004564-16cd-44ea-98ea-69432be29294"
           }
         ],
         "false": []
       },
-      "id": "50f63416-0e26-4c80-abac-b3f1174c2d2b"
+      "id": "27113e20-097c-4733-a953-81de7caca96e"
     }
   ],
   "leaveScript": [],
