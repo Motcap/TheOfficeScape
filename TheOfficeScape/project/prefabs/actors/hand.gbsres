@@ -5,7 +5,7 @@
   "frame": 0,
   "animate": false,
   "spriteSheetId": "11b5452b-187c-43a3-afb1-a1f4f74ffda2",
-  "moveSpeed": 0.1,
+  "moveSpeed": 3,
   "animSpeed": 255,
   "paletteId": "",
   "persistent": false,
@@ -92,7 +92,7 @@
                   "command": "EVENT_INC_VALUE",
                   "args": {
                     "variable": "L5",
-                    "__comment": true
+                    "__comment": false
                   },
                   "id": "f20af164-bf33-42cb-ad1a-fc752122ae48"
                 },
@@ -102,17 +102,6 @@
                     "actorId": "$self$"
                   },
                   "id": "ef9edaf3-65d0-4cbd-8492-5ac12d449ff4"
-                },
-                {
-                  "command": "EVENT_SET_VALUE",
-                  "args": {
-                    "variable": "L5",
-                    "value": {
-                      "type": "number",
-                      "value": 0
-                    }
-                  },
-                  "id": "ecbab575-d710-444e-ac86-f86c272777ce"
                 }
               ],
               "false": [

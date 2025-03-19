@@ -25,7 +25,7 @@
           },
           "valueB": {
             "type": "number",
-            "value": 5
+            "value": 30
           }
         }
       }
@@ -41,7 +41,7 @@
           },
           "valueB": {
             "type": "number",
-            "value": 5
+            "value": 30
           }
         }
       }
