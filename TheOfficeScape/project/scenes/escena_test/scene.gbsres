@@ -13,7 +13,7 @@
   "collisions": "00168+",
   "autoFadeSpeed": 1,
   "symbol": "scene_19",
-  "x": 1080,
+  "x": 120,
   "y": 48,
   "script": [
     {
@@ -25,39 +25,19 @@
       "children": {
         "true": [
           {
-            "command": "EVENT_SET_VALUE",
+            "command": "EVENT_ACTOR_SET_POSITION",
             "args": {
-              "variable": "L2",
-              "value": {
+              "actorId": "$self$",
+              "x": {
                 "type": "number",
-                "value": 1
+                "value": 9
               },
-              "__collapse": false
-            },
-            "id": "2ee4187f-094f-4106-a2c6-b29be1165056"
-          },
-          {
-            "command": "EVENT_SET_VALUE",
-            "args": {
-              "variable": "L1",
-              "value": {
+              "y": {
                 "type": "number",
-                "value": 0
-              },
-              "__collapse": false
+                "value": 8
+              }
             },
-            "id": "baff565f-165c-4a2c-8986-c98a007713a9"
-          },
-          {
-            "command": "EVENT_SET_VALUE",
-            "args": {
-              "variable": "L0",
-              "value": {
-                "type": "true"
-              },
-              "__collapse": false
-            },
-            "id": "1edfdff3-bb20-4dfc-a980-88f1aa20d9a6"
+            "id": "e74c3bd2-2913-439b-8606-6357a80f78d6"
           },
           {
             "command": "EVENT_MUSIC_PLAY",
@@ -66,133 +46,21 @@
               "__comment": true
             },
             "id": "d06b3296-5caa-41cf-a54a-560c2e8f93cd"
+          },
+          {
+            "command": "EVENT_ACTOR_SET_COLLISION_BOX",
+            "args": {
+              "actorId": "$self$",
+              "x": 0,
+              "y": 0,
+              "width": 16,
+              "height": 16
+            },
+            "id": "2deeb007-2d33-4eb8-9a84-f9286c0aa0fd"
           }
         ]
       },
       "id": "faecfaeb-2e6c-4ed9-a169-1db5a884b9da"
-    },
-    {
-      "command": "EVENT_SET_TIMER_SCRIPT",
-      "args": {
-        "timer": 1,
-        "duration": 0,
-        "frames": 1,
-        "__scriptTabs": "end",
-        "__collapse": false,
-        "__comment": true,
-        "units": "frames"
-      },
-      "children": {
-        "script": [
-          {
-            "command": "EVENT_INC_VALUE",
-            "args": {
-              "variable": "L1",
-              "__collapse": true
-            },
-            "id": "d5415d1c-2a26-496d-9d72-ddd6f86ef043"
-          },
-          {
-            "command": "EVENT_IF",
-            "args": {
-              "condition": {
-                "type": "eq",
-                "valueA": {
-                  "type": "variable",
-                  "value": "L1"
-                },
-                "valueB": {
-                  "type": "number",
-                  "value": 30
-                }
-              },
-              "__collapseElse": true,
-              "__collapse": true,
-              "__disableElse": true,
-              "__comment": false
-            },
-            "children": {
-              "true": [
-                {
-                  "command": "EVENT_SET_VALUE",
-                  "args": {
-                    "variable": "L1",
-                    "value": {
-                      "type": "number",
-                      "value": 0
-                    },
-                    "__collapse": false
-                  },
-                  "id": "3615e763-cdb4-45de-9a69-4f55a5061a65"
-                },
-                {
-                  "command": "EVENT_IF",
-                  "args": {
-                    "condition": {
-                      "type": "variable",
-                      "value": "L0"
-                    },
-                    "__collapseElse": false,
-                    "__collapse": false
-                  },
-                  "children": {
-                    "true": [
-                      {
-                        "command": "GRIM_RANDOMIZE_DIRECTION",
-                        "args": {
-                          "actorId": "b5ee4d6a-37a3-4259-ba7f-42dd2d847e6a",
-                          "randomDirection": "T0",
-                          "actorRef": "b5ee4d6a-37a3-4259-ba7f-42dd2d847e6a",
-                          "testDir": "down",
-                          "w": 20,
-                          "h": 18,
-                          "bisLeftHand": true,
-                          "bIsLeftHand": true
-                        },
-                        "id": "0dec1ded-c715-4246-b484-dc6b9ecf4fe6"
-                      }
-                    ],
-                    "false": [
-                      {
-                        "command": "GRIM_RANDOMIZE_DIRECTION",
-                        "args": {
-                          "actorId": "726ceb05-0c46-4957-b150-0a8c4e7f2e9c",
-                          "randomDirection": "T0",
-                          "actorRef": "726ceb05-0c46-4957-b150-0a8c4e7f2e9c",
-                          "testDir": "up",
-                          "w": 20,
-                          "h": 18,
-                          "bisLeftHand": false
-                        },
-                        "id": "9c326f4c-853e-4ce0-a39b-34d94ecc824e"
-                      }
-                    ]
-                  },
-                  "id": "943503d4-3442-47dc-9550-413507107056"
-                },
-                {
-                  "command": "EVENT_SET_VALUE",
-                  "args": {
-                    "variable": "L0",
-                    "value": {
-                      "type": "not",
-                      "value": {
-                        "type": "variable",
-                        "value": "L0"
-                      }
-                    },
-                    "__collapse": false
-                  },
-                  "id": "ed01dacc-b8e5-4a0b-93e9-c6e8f237d9ad"
-                }
-              ],
-              "false": []
-            },
-            "id": "b6cab2bc-ce41-45e4-9d61-2d01bf065bf6"
-          }
-        ]
-      },
-      "id": "6803d0a4-06ff-4373-b3f2-c7eb8213943e"
     },
     {
       "command": "GRIM_EVENT_COUNTER_ATTACK",

@@ -13,7 +13,40 @@
   "isPinned": false,
   "persistent": false,
   "collisionGroup": "",
-  "prefabScriptOverrides": {},
+  "prefabScriptOverrides": {
+    "771fb732-8183-400c-855d-09b7468f79d3": {
+      "id": "771fb732-8183-400c-855d-09b7468f79d3",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "L5"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 5
+          }
+        }
+      }
+    },
+    "b95d3a20-583b-4ba3-8001-5b72b3ef0980": {
+      "id": "b95d3a20-583b-4ba3-8001-5b72b3ef0980",
+      "args": {
+        "condition": {
+          "type": "lt",
+          "valueA": {
+            "type": "variable",
+            "value": "L5"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 5
+          }
+        }
+      }
+    }
+  },
   "symbol": "actor_9",
   "script": [],
   "startScript": [
