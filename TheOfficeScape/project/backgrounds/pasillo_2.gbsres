@@ -8,5 +8,6 @@
   "imageWidth": 144,
   "imageHeight": 512,
   "filename": "Pasillo_2.png",
-  "tileColors": ""
+  "tileColors": "",
+  "autoColor": false
 }

@@ -14,7 +14,7 @@
   "persistent": false,
   "collisionGroup": "",
   "prefabScriptOverrides": {},
-  "symbol": "actor_9",
+  "symbol": "actor_0",
   "script": [
     {
       "command": "EVENT_TEXT",

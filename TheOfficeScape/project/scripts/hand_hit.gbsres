@@ -1,0 +1,16 @@
+{
+  "_resourceType": "script",
+  "id": "60304be7-9567-4260-884d-71d6d298d084",
+  "name": "Hand Hit",
+  "description": "",
+  "variables": {},
+  "actors": {},
+  "symbol": "script_3",
+  "script": [
+    {
+      "command": "GRIM_EVENT_HAND_DAMAGED",
+      "args": {},
+      "id": "5cfa8913-6d91-4c48-8d3c-de190a144dfb"
+    }
+  ]
+}

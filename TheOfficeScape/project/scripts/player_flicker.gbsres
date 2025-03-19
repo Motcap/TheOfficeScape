@@ -1,0 +1,88 @@
+{
+  "_resourceType": "script",
+  "id": "d6fdba95-8210-4313-b8f0-99bd7192d7ea",
+  "name": "Player Flicker",
+  "description": "",
+  "variables": {},
+  "actors": {},
+  "symbol": "script_2",
+  "script": [
+    {
+      "command": "EVENT_THREAD_START",
+      "args": {
+        "variable": "9",
+        "__scriptTabs": "true"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_GROUP",
+            "args": {
+              "__label": "Flicker Player",
+              "__collapse": false
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_ACTOR_HIDE",
+                  "args": {
+                    "actorId": "player"
+                  },
+                  "id": "4f3d94a0-e0a6-4d35-9769-3da6f784b651"
+                },
+                {
+                  "command": "EVENT_WAIT",
+                  "args": {
+                    "time": 0.2,
+                    "frames": 30
+                  },
+                  "id": "bae58dad-69a9-4d09-8c3e-cc59b489b432"
+                },
+                {
+                  "command": "EVENT_ACTOR_SHOW",
+                  "args": {
+                    "actorId": "player"
+                  },
+                  "id": "92f93195-10a5-473a-83c0-49798a696205"
+                },
+                {
+                  "command": "EVENT_WAIT",
+                  "args": {
+                    "time": 0.1,
+                    "frames": 30
+                  },
+                  "id": "9eadc683-fc82-44e2-8a97-93110f6785f7"
+                },
+                {
+                  "command": "EVENT_ACTOR_HIDE",
+                  "args": {
+                    "actorId": "player"
+                  },
+                  "id": "431d3b7f-c7fc-4fa1-a335-1c52524695cd"
+                },
+                {
+                  "command": "EVENT_WAIT",
+                  "args": {
+                    "time": 0.02,
+                    "frames": 30
+                  },
+                  "id": "7cd9e462-6e4b-4be2-b138-0eeb7f431bb3"
+                },
+                {
+                  "command": "EVENT_ACTOR_SHOW",
+                  "args": {
+                    "actorId": "player",
+                    "__collapse": false
+                  },
+                  "id": "f5fcebfb-1094-4b06-9a49-d377cb0e49d5"
+                }
+              ]
+            },
+            "id": "db941420-a701-44d3-a6bf-b77f94dff211"
+          }
+        ]
+      },
+      "id": "6bf0e835-572d-453a-8ee5-f6440b2589ca"
+    }
+  ]
+}

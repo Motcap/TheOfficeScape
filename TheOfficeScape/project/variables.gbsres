@@ -4,7 +4,7 @@
     {
       "id": "0",
       "name": "KeyAquarium",
-      "symbol": "var_keyaquarium_1"
+      "symbol": "var_keyaquarium_2"
     },
     {
       "id": "1",
@@ -30,6 +30,26 @@
       "id": "5",
       "name": "ACY",
       "symbol": "var_acy"
+    },
+    {
+      "id": "6",
+      "name": "TimerRate",
+      "symbol": "var_timerrate"
+    },
+    {
+      "id": "7",
+      "name": "HandL",
+      "symbol": "var_handl"
+    },
+    {
+      "id": "8",
+      "name": "HandR",
+      "symbol": "var_handr"
+    },
+    {
+      "id": "9",
+      "name": "MoveThread",
+      "symbol": "var_movethread"
     },
     {
       "id": "0f4b1b14-3945-4cf0-8c2c-cb3d63d120a7__L0",
@@ -67,24 +87,59 @@
       "symbol": "var_keyaquarium_0"
     },
     {
-      "id": "0ba420e6-e6de-4bc4-9fab-d73b241f8f49__L0",
-      "name": "SaveGame",
-      "symbol": "var_savegame_0"
+      "id": "2fbf1512-78e5-48a6-9be3-b8010b189250__L0",
+      "name": "bIsLeftHand",
+      "symbol": "var_bislefthand"
     },
     {
-      "id": "cb25d3e0-1579-43b5-9574-4a5d2afbd3a4__L0",
-      "name": "SaveShock",
-      "symbol": "var_saveshock"
+      "id": "2fbf1512-78e5-48a6-9be3-b8010b189250__L1",
+      "name": "CurrentTime",
+      "symbol": "var_currenttime"
     },
     {
-      "id": "78bac8c0-fdc2-4e65-a602-5965ff59ed1b__L0",
-      "name": "StoreShock",
-      "symbol": "var_storeshock_0"
+      "id": "2fbf1512-78e5-48a6-9be3-b8010b189250__L2",
+      "name": "MaxCycleTime",
+      "symbol": "var_maxcycletime"
     },
     {
-      "id": "07ee20c7-f74f-4b9e-b7b1-1a229a460b36__L0",
-      "name": "StatisticsShock",
-      "symbol": "var_statisticsshock_0"
+      "id": "726ceb05-0c46-4957-b150-0a8c4e7f2e9c__L0",
+      "name": "Local 0",
+      "symbol": "var_local_0"
+    },
+    {
+      "id": "79d28868-2d91-4739-90f0-43e2b4972c17__L0",
+      "name": "AX",
+      "symbol": "var_ax"
+    },
+    {
+      "id": "79d28868-2d91-4739-90f0-43e2b4972c17__L1",
+      "name": "AY",
+      "symbol": "var_ay"
+    },
+    {
+      "id": "79d28868-2d91-4739-90f0-43e2b4972c17__L2",
+      "name": "PX",
+      "symbol": "var_px"
+    },
+    {
+      "id": "79d28868-2d91-4739-90f0-43e2b4972c17__L3",
+      "name": "PY",
+      "symbol": "var_py"
+    },
+    {
+      "id": "993b11ad-3c85-4a79-bf93-622033615806__L1",
+      "name": "FrameCount",
+      "symbol": "var_framecount"
+    },
+    {
+      "id": "993b11ad-3c85-4a79-bf93-622033615806__L0",
+      "name": "bIsLeftHand",
+      "symbol": "var_bislefthand_0"
+    },
+    {
+      "id": "79d28868-2d91-4739-90f0-43e2b4972c17__L5",
+      "name": "FrameCount",
+      "symbol": "var_framecount_0"
     }
   ]
 }

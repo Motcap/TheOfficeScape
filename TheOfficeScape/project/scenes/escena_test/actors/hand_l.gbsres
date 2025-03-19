@@ -1,0 +1,49 @@
+{
+  "_resourceType": "actor",
+  "id": "b5ee4d6a-37a3-4259-ba7f-42dd2d847e6a",
+  "name": "Hand_L",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
+  "prefabId": "79d28868-2d91-4739-90f0-43e2b4972c17",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {
+    "ef9edaf3-65d0-4cbd-8492-5ac12d449ff4": {
+      "id": "ef9edaf3-65d0-4cbd-8492-5ac12d449ff4",
+      "args": {
+        "bIsLeftHand": true
+      }
+    },
+    "08790193-074e-46a0-9fa1-1eab89997c1b": {
+      "id": "08790193-074e-46a0-9fa1-1eab89997c1b",
+      "args": {
+        "value": {
+          "type": "number",
+          "value": -30
+        }
+      }
+    },
+    "ae941feb-72aa-4d6f-839e-ef433b45a978": {
+      "id": "ae941feb-72aa-4d6f-839e-ef433b45a978",
+      "args": {
+        "variable": "L5"
+      }
+    }
+  },
+  "symbol": "actor_10",
+  "script": [],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 18,
+  "y": 8,
+  "_index": 1
+}
