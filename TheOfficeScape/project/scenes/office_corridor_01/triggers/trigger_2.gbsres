@@ -8,7 +8,7 @@
   "symbol": "trigger_34",
   "prefabScriptOverrides": {},
   "width": 1,
-  "height": 10,
+  "height": 9,
   "script": [
     {
       "command": "EVENT_SWITCH_SCENE",
@@ -19,8 +19,9 @@
           "value": 1
         },
         "y": {
-          "type": "number",
-          "value": 6
+          "type": "property",
+          "target": "player",
+          "property": "ypos"
         },
         "direction": "right",
         "fadeSpeed": "2"

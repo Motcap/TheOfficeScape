@@ -4,7 +4,7 @@
   "name": "",
   "prefabId": "",
   "x": 0,
-  "y": 3,
+  "y": 4,
   "symbol": "trigger_36",
   "prefabScriptOverrides": {},
   "width": 1,
@@ -19,8 +19,9 @@
           "value": 17
         },
         "y": {
-          "type": "number",
-          "value": 8
+          "type": "property",
+          "target": "player",
+          "property": "ypos"
         },
         "direction": "left",
         "fadeSpeed": "2"

@@ -15,8 +15,9 @@
       "args": {
         "sceneId": "8251ced8-3cf6-459c-87ba-360f753092c3",
         "x": {
-          "type": "number",
-          "value": 9
+          "type": "property",
+          "target": "player",
+          "property": "xpos"
         },
         "y": {
           "type": "number",

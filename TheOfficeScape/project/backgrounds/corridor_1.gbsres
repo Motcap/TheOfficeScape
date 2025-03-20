@@ -8,5 +8,6 @@
   "imageWidth": 160,
   "imageHeight": 384,
   "filename": "Corridor_1.png",
-  "tileColors": ""
+  "tileColors": "",
+  "autoColor": false
 }
