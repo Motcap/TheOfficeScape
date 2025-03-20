@@ -1,0 +1,33 @@
+{
+  "_resourceType": "trigger",
+  "id": "bf0a2f08-b8e3-4281-b3f7-ea9872f9487f",
+  "name": "corridor_door_RedRoom",
+  "prefabId": "",
+  "x": 19,
+  "y": 13,
+  "symbol": "trigger_5",
+  "prefabScriptOverrides": {},
+  "width": 1,
+  "height": 2,
+  "script": [
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "d66cad1c-f491-4042-8022-923c5557eb5f",
+        "x": {
+          "type": "number",
+          "value": 1
+        },
+        "y": {
+          "type": "number",
+          "value": 42
+        },
+        "direction": "right",
+        "fadeSpeed": "2"
+      },
+      "id": "cc71b0bc-22f3-43a4-b159-5855c8d160c4"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 0
+}

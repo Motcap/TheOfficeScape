@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "ddfa4f46-9146-438d-9481-7e32cbb54a9e",
+  "name": "CorridortoOffice",
+  "symbol": "bg_corridortooffice",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "CorridortoOffice.png",
+  "tileColors": ""
+}

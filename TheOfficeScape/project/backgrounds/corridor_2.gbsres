@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "2c462ecc-3653-4286-9867-b6b164c2093c",
+  "name": "Corridor_2",
+  "symbol": "bg_corridor_2",
+  "width": 20,
+  "height": 48,
+  "imageWidth": 160,
+  "imageHeight": 384,
+  "filename": "Corridor_2.png",
+  "tileColors": ""
+}
