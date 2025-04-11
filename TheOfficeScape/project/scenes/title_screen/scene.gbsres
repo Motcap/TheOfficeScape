@@ -3,19 +3,57 @@
   "id": "0f4b1b14-3945-4cf0-8c2c-cb3d63d120a7",
   "_index": 11,
   "name": "Title Screen",
-  "backgroundId": "1e5f9d6a-bdbc-43e6-8c34-22f5bb5dea05",
+  "backgroundId": "5a0a25a2-fa05-4ec4-9594-fbb5271570a2",
   "tilesetId": "",
   "width": 20,
-  "height": 18,
+  "height": 25,
   "type": "TOPDOWN",
   "paletteIds": [],
   "spritePaletteIds": [],
   "collisions": "",
-  "autoFadeSpeed": 1,
+  "autoFadeSpeed": null,
   "symbol": "scene_12",
   "x": 904,
   "y": 216,
   "script": [
+    {
+      "command": "EVENT_CAMERA_MOVE_TO",
+      "args": {
+        "x": {
+          "type": "number",
+          "value": 0
+        },
+        "y": {
+          "type": "number",
+          "value": 7
+        },
+        "speed": 0,
+        "__collapse": true
+      },
+      "id": "9c7220e1-1330-4898-b527-8f9055cf6638"
+    },
+    {
+      "command": "EVENT_FADE_IN",
+      "args": {
+        "speed": 1
+      },
+      "id": "f1bd9e1f-3708-411c-9f84-9b512ba512f5"
+    },
+    {
+      "command": "EVENT_CAMERA_MOVE_TO",
+      "args": {
+        "x": {
+          "type": "number",
+          "value": 0
+        },
+        "y": {
+          "type": "number",
+          "value": 3
+        },
+        "speed": 0.5
+      },
+      "id": "0827224b-c4ac-4d4a-b255-2a64ded744f1"
+    },
     {
       "command": "EVENT_ACTOR_DEACTIVATE",
       "args": {
@@ -32,18 +70,23 @@
           "b",
           "start",
           "select"
-        ]
+        ],
+        "__collapse": true
       },
       "id": "27e7667f-b0be-4d74-bbaa-bd59b4adc0bd"
     },
     {
       "command": "EVENT_RNG_SEED",
-      "args": {},
+      "args": {
+        "__collapse": true
+      },
       "id": "15e56db1-7429-4d44-88e6-2fcad2c37888"
     },
     {
       "command": "EVENT_LOOP",
-      "args": {},
+      "args": {
+        "__collapse": true
+      },
       "children": {
         "true": [
           {
@@ -142,5 +185,6 @@
   ],
   "playerHit1Script": [],
   "playerHit2Script": [],
-  "playerHit3Script": []
+  "playerHit3Script": [],
+  "autoFadeEventCollapse": false
 }
