@@ -1,0 +1,8 @@
+# Normalize all text files to use LF line endings, regardless of platform
+* text=auto
+
+# Specific handling for .gbsres files to ensure consistent line endings
+*.gbsres text eol=lf
+
+# Ensure that whitespace-only changes don't show up in diffs
+* whitespace=ignore-all
