@@ -8,12 +8,6 @@ export const subGroups = {
 
 export const fields =
 [
-    // {
-    //     key: "input",
-    //     label: "Button",
-    //     type: "input",
-    //     defaultValue: ["a", "left", "right", "up", "down"],
-    // },
     {
         key: "script",
         label: "Script",
@@ -21,8 +15,9 @@ export const fields =
     }
 ];
 
-export const compile = (input, helpers) => {
-    const { inputScriptSet, textDialogue } = helpers;
+export const compile = (input, helpers) =>
+{
+    const { inputScriptSet, ifInput, appendRaw, _compilePath } = helpers;
 
     inputScriptSet(["a", "left", "up", "right", "down"], true, input.script);
 };

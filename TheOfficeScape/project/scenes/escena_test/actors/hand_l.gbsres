@@ -24,8 +24,15 @@
       "id": "08790193-074e-46a0-9fa1-1eab89997c1b",
       "args": {
         "value": {
-          "type": "number",
-          "value": -30
+          "type": "sub",
+          "valueA": {
+            "type": "number",
+            "value": 0
+          },
+          "valueB": {
+            "type": "variable",
+            "value": "L0"
+          }
         }
       }
     },
@@ -33,6 +40,21 @@
       "id": "ae941feb-72aa-4d6f-839e-ef433b45a978",
       "args": {
         "variable": "L5"
+      }
+    },
+    "ee67067e-d53e-46d9-b05c-f6d3a929b6d1": {
+      "id": "ee67067e-d53e-46d9-b05c-f6d3a929b6d1",
+      "args": {
+        "__section": "source"
+      }
+    },
+    "918917c9-9e38-40f3-8dfa-bd670a35821f": {
+      "id": "918917c9-9e38-40f3-8dfa-bd670a35821f",
+      "args": {
+        "value": {
+          "type": "number",
+          "value": 9
+        }
       }
     }
   },

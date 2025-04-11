@@ -3,86 +3,84 @@
   "id": "d6fdba95-8210-4313-b8f0-99bd7192d7ea",
   "name": "Player Flicker",
   "description": "",
-  "variables": {},
+  "variables": {
+    "V0": {
+      "id": "V0",
+      "name": "CameraShakeIntensity",
+      "passByReference": false
+    }
+  },
   "actors": {},
   "symbol": "script_2",
   "script": [
     {
-      "command": "EVENT_THREAD_START",
+      "command": "EVENT_GROUP",
       "args": {
-        "variable": "9",
-        "__scriptTabs": "true"
+        "__label": "Flicker"
       },
       "children": {
         "true": [
           {
-            "command": "EVENT_GROUP",
+            "command": "EVENT_CAMERA_SHAKE",
             "args": {
-              "__label": "Flicker Player",
+              "time": 0.2,
+              "frames": 30,
+              "shakeDirection": "horizontal",
+              "magnitude": {
+                "type": "variable",
+                "value": "V0"
+              }
+            },
+            "id": "4aaacb99-961b-45f0-b041-2d4060d23812"
+          },
+          {
+            "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+            "args": {
+              "actorId": "$self$",
+              "speed": 3,
               "__collapse": false
             },
-            "children": {
-              "true": [
-                {
-                  "command": "EVENT_ACTOR_HIDE",
-                  "args": {
-                    "actorId": "player"
-                  },
-                  "id": "4f3d94a0-e0a6-4d35-9769-3da6f784b651"
-                },
-                {
-                  "command": "EVENT_WAIT",
-                  "args": {
-                    "time": 0.2,
-                    "frames": 30
-                  },
-                  "id": "bae58dad-69a9-4d09-8c3e-cc59b489b432"
-                },
-                {
-                  "command": "EVENT_ACTOR_SHOW",
-                  "args": {
-                    "actorId": "player"
-                  },
-                  "id": "92f93195-10a5-473a-83c0-49798a696205"
-                },
-                {
-                  "command": "EVENT_WAIT",
-                  "args": {
-                    "time": 0.1,
-                    "frames": 30
-                  },
-                  "id": "9eadc683-fc82-44e2-8a97-93110f6785f7"
-                },
-                {
-                  "command": "EVENT_ACTOR_HIDE",
-                  "args": {
-                    "actorId": "player"
-                  },
-                  "id": "431d3b7f-c7fc-4fa1-a335-1c52524695cd"
-                },
-                {
-                  "command": "EVENT_WAIT",
-                  "args": {
-                    "time": 0.02,
-                    "frames": 30
-                  },
-                  "id": "7cd9e462-6e4b-4be2-b138-0eeb7f431bb3"
-                },
-                {
-                  "command": "EVENT_ACTOR_SHOW",
-                  "args": {
-                    "actorId": "player",
-                    "__collapse": false
-                  },
-                  "id": "f5fcebfb-1094-4b06-9a49-d377cb0e49d5"
-                }
-              ]
+            "id": "60f04180-c03c-43a3-91d7-354958fe298f"
+          },
+          {
+            "command": "EVENT_ACTOR_SET_STATE",
+            "args": {
+              "actorId": "$self$",
+              "spriteStateId": "Flicker",
+              "loopAnim": true
             },
-            "id": "db941420-a701-44d3-a6bf-b77f94dff211"
+            "id": "726b11b0-295c-428c-a5fc-c3acb5d87be2"
+          },
+          {
+            "command": "EVENT_WAIT",
+            "args": {
+              "time": 0.5,
+              "frames": 6,
+              "units": "frames"
+            },
+            "id": "2617245b-364a-4cd1-afe2-697d1a1ce734"
+          },
+          {
+            "command": "EVENT_ACTOR_SET_ANIMATION_SPEED",
+            "args": {
+              "actorId": "$self$",
+              "speed": 255,
+              "__collapse": false
+            },
+            "id": "ba6da894-6b90-4b80-88e9-a30aae222b29"
+          },
+          {
+            "command": "EVENT_ACTOR_SET_STATE",
+            "args": {
+              "actorId": "$self$",
+              "spriteStateId": "",
+              "loopAnim": false
+            },
+            "id": "dd71ea04-a20e-4761-ac83-adf0cfab4e1b"
           }
         ]
       },
-      "id": "6bf0e835-572d-453a-8ee5-f6440b2589ca"
+      "id": "f42b7583-a766-4917-aef2-dc23288625c8"
     }
   ]
 }

@@ -30,21 +30,8 @@ export const compile = (input, helpers) => {
         appendRaw,
         temporaryEntityVariable,
         ifVariableValue,
-        actorStartUpdate,
-        actorStopUpdate,
-        actorMoveTo,
-        wait,
         scene
     } = helpers;
-
-    function printf(txt)
-    {
-        appendRaw
-        (`VM_SWITCH_TEXT_LAYER .TEXT_LAYER_BKG
-            VM_LOAD_TEXT 0
-            .asciz "${txt}"
-            VM_DISPLAY_TEXT`);
-    }
 
     const dir = temporaryEntityVariable(0);
     seedRng();
@@ -59,25 +46,28 @@ export const compile = (input, helpers) => {
     const xMid = Math.floor(w/2)-1;
     const yMid = Math.floor(h/2)-1;
 
-    actorSetActive(input.actorId);
-    // actorStopUpdate();
+    // Store Player Position
+    const pX = temporaryEntityVariable(2);
+    const pY = temporaryEntityVariable(3);
 
-    let bIsHorizontal = true;
+    actorSetActive("player");
+    actorGetPosition(pX, pY, "tiles");
+
+    // Set HAND Position
+
+    actorSetActive(input.actorId);
 
     if(input.bIsLeftHand == true)
     {
         // DIR: Up
         ifVariableValue(dir, ".EQ", 0, () =>
         {
-            // printf("DIR_UP   ");
             actorSetDirection("up");
             actorSetPosition(xMid, h-1, "tiles");
-            bIsHorizontal = false;
         });
         // DIR: Left
         ifVariableValue(dir, ".EQ", 1, () =>
         {
-            // printf("DIR_LEFT ");
             actorSetDirection("left");
             actorSetPosition(w-1, yMid, "tiles");
         });
@@ -87,31 +77,17 @@ export const compile = (input, helpers) => {
         // DIR: Down
         ifVariableValue(dir, ".EQ", 0, () =>
         {
-            // printf("DIR_DOWN ");
             actorSetDirection("down");
             actorSetPosition(xMid, y, "tiles");
-            bIsHorizontal = false;
         });
         // DIR: Right
         ifVariableValue(dir, ".EQ", 1, () =>
         {
-            // printf("DIR_RIGHT");
             actorSetDirection("right");
             actorSetPosition(x, yMid, "tiles");
         });
     }
 
-    wait(2);
-
-    const pX = temporaryEntityVariable(2);
-    const pY = temporaryEntityVariable(3);
-
-    actorSetActive("player");
-    actorGetPosition(pX, pY, "tiles");
-
-    actorSetActive(input.actorId);
-
     actorShow(input.actorId);
     actorMoveToVariables(pX, pY, "tiles");
-    // actorStartUpdate();
 };

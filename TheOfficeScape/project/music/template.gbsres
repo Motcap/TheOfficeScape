@@ -4,6 +4,8 @@
   "name": "template",
   "symbol": "song_template",
   "filename": "template.mod",
-  "settings": {},
+  "settings": {
+    "disableSpeedConversion": false
+  },
   "type": "mod"
 }

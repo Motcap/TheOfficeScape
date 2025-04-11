@@ -4,7 +4,7 @@
     {
       "id": "0",
       "name": "KeyAquarium",
-      "symbol": "var_keyaquarium_2"
+      "symbol": "var_keyaquarium_1"
     },
     {
       "id": "1",
@@ -33,8 +33,8 @@
     },
     {
       "id": "6",
-      "name": "TimerRate",
-      "symbol": "var_timerrate"
+      "name": "Player_HEALTH",
+      "symbol": "var_player_health"
     },
     {
       "id": "7",
@@ -108,13 +108,13 @@
     },
     {
       "id": "79d28868-2d91-4739-90f0-43e2b4972c17__L0",
-      "name": "AX",
-      "symbol": "var_ax"
+      "name": "FrameLimit",
+      "symbol": "var_framelimit"
     },
     {
       "id": "79d28868-2d91-4739-90f0-43e2b4972c17__L1",
-      "name": "AY",
-      "symbol": "var_ay"
+      "name": "bCanAttack",
+      "symbol": "var_bcanattack"
     },
     {
       "id": "79d28868-2d91-4739-90f0-43e2b4972c17__L2",

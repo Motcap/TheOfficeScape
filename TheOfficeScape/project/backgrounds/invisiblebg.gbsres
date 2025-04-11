@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "5dc6301c-57a6-41e8-8bd5-a421f802552a",
+  "name": "InvisibleBG",
+  "symbol": "bg_invisiblebg",
+  "width": 20,
+  "height": 36,
+  "imageWidth": 160,
+  "imageHeight": 288,
+  "filename": "InvisibleBG.png",
+  "tileColors": "",
+  "autoColor": false
+}

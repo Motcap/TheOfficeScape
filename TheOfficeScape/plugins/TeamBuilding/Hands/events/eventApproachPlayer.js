@@ -10,114 +10,29 @@ export const fields =
         type: "actor",
         defaultValue: "$self$"
     },
-    // {
-    //     type: "group",
-    //     fields:
-    //     [{
-    //         key: "actorX",
-    //         label: "Actor X",
-    //         type: "variable",
-    //         defaultValue: "LAST_VARIABLE",
-    //         width: "50%"
-    //     },
-    //     {
-    //         key: "actorY",
-    //         label: "Actor Y",
-    //         type: "variable",
-    //         defaultValue: "LAST_VARIABLE",
-    //         width: "50%"
-    //     }]
-    // },
-    // {
-    //     type: "group",
-    //     fields:        
-    //     [{
-    //         key: "playerX",
-    //         label: "Player X",
-    //         type: "variable",
-    //         defaultValue: "LAST_VARIABLE",
-    //         width: "50%"
-    //     },
-    //     {
-    //         key: "playerY",
-    //         label: "Player Y",
-    //         type: "variable",
-    //         defaultValue: "LAST_VARIABLE",
-    //         width: "50%"
-    //     }]
-    // },
     {
-        type: "customEvent",
-        key: "customEventId",
-        label: "On Hit Event",
-        postUpdateFn: (newArgs, prevArgs) =>
-        {
-            // Reset args if custom event changed
-            if (newArgs.customEventId !== prevArgs.customEventId)
-            {
-              return { customEventId: newArgs.customEventId };
-            }
-            else { return newArgs; }
-        },
-    },
-    {
-        type: "break",
+        key: "action",
+        label: "Attack Player",
+        type: "events"
     }
 ];
 
-export const compile = (input, helpers) => {
-    const {
+export const compile = (input, helpers) =>
+{
+    const
+    {
         actorSetActive,
-        ifVariableCompare,
         ifActorDistanceFromActor,
-        actorMoveToVariables,
-        actorMoveRelative,
-        actorGetPosition,
-        actorSetPosition,
-        actorHide,
-        actorStopUpdate,
-        temporaryEntityVariable,
-        wait,
+        actorMoveCancel,
         callScript
     } = helpers;
-    const { actorId, /*actorX, actorY, playerX, playerY*/ } = input;
-
-    const pX = temporaryEntityVariable(2);
-    const pY = temporaryEntityVariable(3);
-
-    actorSetActive("player");
-    actorGetPosition(pX, pY, "tiles");
-
-    const aX = temporaryEntityVariable(0);
-    const aY = temporaryEntityVariable(1);
+    const { actorId } = input;
 
     actorSetActive(actorId);
-    // actorGetPosition(actorX, actorY, "tiles");
-    // actorMoveToVariables(pX, pY, "tiles");
 
-    // function moveActor(bIsPositive, bIsHorizontal)
-    // {
-    //     const x = bIsHorizontal ? (bIsPositive ? 1 : -1) : 0;
-    //     const y = !bIsHorizontal ? (bIsPositive ? 1 : -1) : 0;
-    //     const dir = bIsHorizontal ? "horizontal" : "vertical";
-    //     // actorMoveRelative(x, y, true, dir, "tiles");
-    //     actorMoveToVariables(pX, pY, true, dir, "tiles");
-    // }
-
-    // // Vertical Check
-    // ifVariableCompare(aY, ".LT", pY, () => { moveActor(true, false); });
-    // ifVariableCompare(aY, ".GT", pY, () => { moveActor(false, false); });
-    // // Horizontal Check
-    // ifVariableCompare(aX, ".GT", pX, () => { moveActor(false, true); });
-    // ifVariableCompare(aX, ".LT", pX, () => { moveActor(true, true); });
-        
     ifActorDistanceFromActor(2, ".LTE", "player", () =>
     {
-        callScript(input.customEventId, input);
-        // actorHide(actorId);
-        actorSetPosition(0, 0);
-        // actorStopUpdate();
+        actorMoveCancel();
+        callScript(input.action);
     });
-
-    // wait(8, "frames");
 };

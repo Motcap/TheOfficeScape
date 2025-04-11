@@ -1,0 +1,11 @@
+{
+  "_resourceType": "tileset",
+  "id": "5a147d51-a00e-46fb-8b0d-1797d3834f24",
+  "name": "BANK_Numbers",
+  "symbol": "bg_bank_numbers",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "BANK_Numbers.png"
+}
