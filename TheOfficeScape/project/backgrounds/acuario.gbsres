@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "d60b3ae1-6464-42dd-86f2-81bf1640e3a6",
+  "name": "Acuario",
+  "symbol": "bg_acuario",
+  "width": 20,
+  "height": 28,
+  "imageWidth": 160,
+  "imageHeight": 224,
+  "filename": "Acuario.png",
+  "tileColors": "",
+  "autoColor": false
+}

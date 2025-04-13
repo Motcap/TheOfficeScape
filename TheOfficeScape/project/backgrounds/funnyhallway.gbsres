@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "009549bc-25a8-4430-9e83-dacac3ce884e",
+  "name": "FunnyHallway",
+  "symbol": "bg_funnyhallway",
+  "width": 20,
+  "height": 48,
+  "imageWidth": 160,
+  "imageHeight": 384,
+  "filename": "FunnyHallway.png",
+  "tileColors": ""
+}
