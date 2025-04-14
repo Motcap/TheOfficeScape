@@ -4,7 +4,7 @@
   "name": "corridor_door_RedRoom",
   "prefabId": "",
   "x": 19,
-  "y": 13,
+  "y": 11,
   "symbol": "trigger_5",
   "prefabScriptOverrides": {},
   "width": 1,

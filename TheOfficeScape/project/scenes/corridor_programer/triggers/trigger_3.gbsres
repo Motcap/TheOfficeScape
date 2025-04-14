@@ -1,20 +1,20 @@
 {
   "_resourceType": "trigger",
-  "id": "50e5ddd4-8ee9-4909-8ec6-0b2be2deb9a9",
+  "id": "f968f43c-dad3-40e4-9dce-213761eba745",
   "name": "",
   "prefabId": "",
-  "x": 9,
-  "y": 8,
-  "symbol": "trigger_40",
+  "x": 18,
+  "y": 14,
+  "symbol": "trigger_42",
   "prefabScriptOverrides": {},
-  "width": 2,
-  "height": 1,
+  "width": 1,
+  "height": 2,
   "script": [
     {
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "Este pomo está\nroto..."
+          "¿Una pistola?\n..."
         ],
         "__section": "text",
         "avatarId": "",
@@ -33,9 +33,9 @@
         "closeDelayTime": 0.5,
         "closeDelayFrames": 30
       },
-      "id": "e6685da2-2acd-4faa-8981-3ec595571108"
+      "id": "3bae315e-b20d-4865-8c1b-944ad30edeae"
     }
   ],
   "leaveScript": [],
-  "_index": 3
+  "_index": 2
 }

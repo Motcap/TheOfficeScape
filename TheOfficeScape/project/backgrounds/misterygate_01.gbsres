@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "75269481-af7e-4a39-9daf-a5f9dd8756d7",
+  "name": "MisteryGate_01",
+  "symbol": "bg_misterygate_01",
+  "width": 20,
+  "height": 32,
+  "imageWidth": 160,
+  "imageHeight": 256,
+  "filename": "MisteryGate_01.png",
+  "tileColors": ""
+}

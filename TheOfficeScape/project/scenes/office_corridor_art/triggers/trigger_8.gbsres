@@ -1,11 +1,11 @@
 {
   "_resourceType": "trigger",
-  "id": "50e5ddd4-8ee9-4909-8ec6-0b2be2deb9a9",
+  "id": "0a310acf-a7d7-4784-b3fe-14f49549a7a1",
   "name": "",
   "prefabId": "",
-  "x": 9,
-  "y": 8,
-  "symbol": "trigger_40",
+  "x": 14,
+  "y": 5,
+  "symbol": "trigger_41",
   "prefabScriptOverrides": {},
   "width": 2,
   "height": 1,
@@ -14,7 +14,7 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "Este pomo está\nroto..."
+          "Parece que \nesta ocupado."
         ],
         "__section": "text",
         "avatarId": "",
@@ -33,9 +33,9 @@
         "closeDelayTime": 0.5,
         "closeDelayFrames": 30
       },
-      "id": "e6685da2-2acd-4faa-8981-3ec595571108"
+      "id": "b3721475-bf65-42b7-84ca-68083c5a2a6d"
     }
   ],
   "leaveScript": [],
-  "_index": 3
+  "_index": 7
 }
