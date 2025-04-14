@@ -14,7 +14,7 @@
     "default-bg-2",
     "default-bg-1",
     "default-bg-4",
-    "default-bg-5",
+    "dmg",
     "default-bg-6",
     "dmg",
     "default-ui"
@@ -81,7 +81,7 @@
   "customControlsSelect": [
     "Shift"
   ],
-  "colorMode": "mono",
+  "colorMode": "mixed",
   "generateDebugFilesEnabled": false,
   "compilerPreset": 3000,
   "scriptEventPresets": {},

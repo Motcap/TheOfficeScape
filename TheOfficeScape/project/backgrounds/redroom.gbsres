@@ -8,5 +8,6 @@
   "imageWidth": 160,
   "imageHeight": 224,
   "filename": "RedRoom.png",
-  "tileColors": ""
+  "tileColors": "",
+  "autoColor": false
 }
