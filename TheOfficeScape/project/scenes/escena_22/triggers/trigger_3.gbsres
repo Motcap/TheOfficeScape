@@ -11,19 +11,47 @@
   "height": 2,
   "script": [
     {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Boss Office",
+          "Vaya... no hay \nnadie.",
+          "Estarán en\nel gym..."
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "3d96b3bc-2d95-45fe-976e-30701831ef79"
+    },
+    {
       "command": "EVENT_SWITCH_SCENE",
       "args": {
         "sceneId": "421f0b7a-4520-4e8f-9daf-16177c0f52ed",
         "x": {
           "type": "number",
-          "value": 17
+          "value": 18
         },
         "y": {
           "type": "number",
           "value": 7
         },
         "direction": "left",
-        "fadeSpeed": "2"
+        "fadeSpeed": "2",
+        "__comment": true
       },
       "id": "4e31d326-1851-4203-88d3-2b48238b647a"
     }

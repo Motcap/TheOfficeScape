@@ -343,6 +343,29 @@
       "children": {
         "true": [
           {
+            "command": "EVENT_IF",
+            "args": {
+              "condition": {
+                "type": "variable",
+                "value": "L1"
+              },
+              "__collapseElse": true
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_INC_VALUE",
+                  "args": {
+                    "variable": "10"
+                  },
+                  "id": "64bf2e55-53be-40ba-af53-59b7e489839a"
+                }
+              ],
+              "false": []
+            },
+            "id": "e2e6ad02-9396-45f0-8767-2a7a693664ef"
+          },
+          {
             "command": "EVENT_SET_VALUE",
             "args": {
               "variable": "L1",
@@ -409,6 +432,91 @@
               }
             },
             "id": "82acb119-f467-46e5-a737-dccc261472d1"
+          },
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "condition": {
+                "type": "gte",
+                "valueA": {
+                  "type": "variable",
+                  "value": "10"
+                },
+                "valueB": {
+                  "type": "number",
+                  "value": 50
+                }
+              },
+              "__collapseElse": true
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_ACTOR_HIDE",
+                  "args": {
+                    "actorId": "726ceb05-0c46-4957-b150-0a8c4e7f2e9c"
+                  },
+                  "id": "6eab10b1-a8b1-4d5a-a801-5e93dc99249e"
+                },
+                {
+                  "command": "EVENT_ACTOR_HIDE",
+                  "args": {
+                    "actorId": "b5ee4d6a-37a3-4259-ba7f-42dd2d847e6a"
+                  },
+                  "id": "479a9fe6-3aee-460f-8542-5f2901a7ee72"
+                },
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "¡Genial!",
+                      "Has conseguido\nevitar los \ntocamientos de TT!"
+                    ],
+                    "__section": "text",
+                    "avatarId": "",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30
+                  },
+                  "id": "58279500-a37a-40aa-a9c1-08a3d3ab5033"
+                },
+                {
+                  "command": "EVENT_MUSIC_STOP",
+                  "args": {},
+                  "id": "e80f14a1-edf5-47f2-a8a2-7e78c08a2660"
+                },
+                {
+                  "command": "EVENT_SWITCH_SCENE",
+                  "args": {
+                    "sceneId": "085c9f05-937e-4c78-b9c1-37a5b8202973",
+                    "x": {
+                      "type": "number",
+                      "value": 2
+                    },
+                    "y": {
+                      "type": "number",
+                      "value": 4
+                    },
+                    "direction": "",
+                    "fadeSpeed": "2"
+                  },
+                  "id": "1995d5df-8a27-4b19-bffb-cee82b27db3e"
+                }
+              ],
+              "false": []
+            },
+            "id": "5b72cc14-4d32-4e6d-ba65-2215c4e6bc98"
           }
         ]
       },

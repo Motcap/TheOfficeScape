@@ -31,7 +31,7 @@
                   "flipX": false,
                   "flipY": false,
                   "objPalette": "OBP0",
-                  "paletteIndex": 1,
+                  "paletteIndex": 2,
                   "priority": false
                 },
                 {
@@ -44,7 +44,7 @@
                   "flipX": false,
                   "flipY": false,
                   "objPalette": "OBP0",
-                  "paletteIndex": 1,
+                  "paletteIndex": 2,
                   "priority": false
                 }
               ]
@@ -103,7 +103,7 @@
                   "flipX": false,
                   "flipY": false,
                   "objPalette": "OBP0",
-                  "paletteIndex": 1,
+                  "paletteIndex": 2,
                   "priority": false
                 },
                 {
@@ -116,7 +116,7 @@
                   "flipX": false,
                   "flipY": false,
                   "objPalette": "OBP0",
-                  "paletteIndex": 1,
+                  "paletteIndex": 2,
                   "priority": false
                 }
               ]
@@ -139,7 +139,7 @@
                   "flipX": false,
                   "flipY": false,
                   "objPalette": "OBP0",
-                  "paletteIndex": 1,
+                  "paletteIndex": 2,
                   "priority": false
                 },
                 {
@@ -152,7 +152,7 @@
                   "flipX": false,
                   "flipY": false,
                   "objPalette": "OBP0",
-                  "paletteIndex": 1,
+                  "paletteIndex": 2,
                   "priority": false
                 }
               ]
@@ -175,7 +175,7 @@
                   "flipX": false,
                   "flipY": false,
                   "objPalette": "OBP0",
-                  "paletteIndex": 1,
+                  "paletteIndex": 2,
                   "priority": false
                 },
                 {
@@ -188,7 +188,7 @@
                   "flipX": false,
                   "flipY": false,
                   "objPalette": "OBP0",
-                  "paletteIndex": 1,
+                  "paletteIndex": 2,
                   "priority": false
                 }
               ]
@@ -206,7 +206,7 @@
                   "flipX": false,
                   "flipY": false,
                   "objPalette": "OBP0",
-                  "paletteIndex": 1,
+                  "paletteIndex": 2,
                   "priority": false
                 },
                 {
@@ -219,7 +219,7 @@
                   "flipX": false,
                   "flipY": false,
                   "objPalette": "OBP0",
-                  "paletteIndex": 1,
+                  "paletteIndex": 2,
                   "priority": false
                 }
               ]
@@ -340,7 +340,7 @@
                   "flipX": false,
                   "flipY": true,
                   "objPalette": "OBP0",
-                  "paletteIndex": 1,
+                  "paletteIndex": 2,
                   "priority": false
                 },
                 {
@@ -353,7 +353,7 @@
                   "flipX": false,
                   "flipY": true,
                   "objPalette": "OBP0",
-                  "paletteIndex": 1,
+                  "paletteIndex": 2,
                   "priority": false
                 }
               ]
@@ -371,7 +371,7 @@
                   "flipX": false,
                   "flipY": true,
                   "objPalette": "OBP0",
-                  "paletteIndex": 1,
+                  "paletteIndex": 2,
                   "priority": false
                 },
                 {
@@ -384,7 +384,7 @@
                   "flipX": false,
                   "flipY": true,
                   "objPalette": "OBP0",
-                  "paletteIndex": 1,
+                  "paletteIndex": 2,
                   "priority": false
                 }
               ]
@@ -407,7 +407,7 @@
                   "flipX": false,
                   "flipY": false,
                   "objPalette": "OBP0",
-                  "paletteIndex": 1,
+                  "paletteIndex": 2,
                   "priority": false
                 },
                 {
@@ -420,7 +420,7 @@
                   "flipX": false,
                   "flipY": false,
                   "objPalette": "OBP0",
-                  "paletteIndex": 1,
+                  "paletteIndex": 2,
                   "priority": false
                 }
               ]
@@ -438,7 +438,7 @@
                   "flipX": false,
                   "flipY": false,
                   "objPalette": "OBP0",
-                  "paletteIndex": 1,
+                  "paletteIndex": 2,
                   "priority": false
                 },
                 {
@@ -451,7 +451,7 @@
                   "flipX": false,
                   "flipY": false,
                   "objPalette": "OBP0",
-                  "paletteIndex": 1,
+                  "paletteIndex": 2,
                   "priority": false
                 }
               ]
@@ -525,7 +525,7 @@
                   "flipX": false,
                   "flipY": false,
                   "objPalette": "OBP0",
-                  "paletteIndex": 0,
+                  "paletteIndex": 4,
                   "priority": false
                 },
                 {
@@ -538,7 +538,7 @@
                   "flipX": false,
                   "flipY": false,
                   "objPalette": "OBP0",
-                  "paletteIndex": 0,
+                  "paletteIndex": 4,
                   "priority": false
                 }
               ]
@@ -641,7 +641,7 @@
                   "flipX": false,
                   "flipY": false,
                   "objPalette": "OBP0",
-                  "paletteIndex": 5,
+                  "paletteIndex": 6,
                   "priority": false
                 },
                 {
@@ -654,7 +654,7 @@
                   "flipX": false,
                   "flipY": false,
                   "objPalette": "OBP0",
-                  "paletteIndex": 5,
+                  "paletteIndex": 6,
                   "priority": false
                 }
               ]
@@ -672,7 +672,7 @@
                   "flipX": false,
                   "flipY": false,
                   "objPalette": "OBP0",
-                  "paletteIndex": 0,
+                  "paletteIndex": 7,
                   "priority": false
                 },
                 {
@@ -685,7 +685,7 @@
                   "flipX": false,
                   "flipY": false,
                   "objPalette": "OBP0",
-                  "paletteIndex": 0,
+                  "paletteIndex": 7,
                   "priority": false
                 }
               ]
@@ -717,7 +717,7 @@
                   "flipX": false,
                   "flipY": true,
                   "objPalette": "OBP0",
-                  "paletteIndex": 5,
+                  "paletteIndex": 6,
                   "priority": false
                 },
                 {
@@ -730,7 +730,7 @@
                   "flipX": false,
                   "flipY": true,
                   "objPalette": "OBP0",
-                  "paletteIndex": 5,
+                  "paletteIndex": 6,
                   "priority": false
                 }
               ]
@@ -748,7 +748,7 @@
                   "flipX": false,
                   "flipY": true,
                   "objPalette": "OBP0",
-                  "paletteIndex": 0,
+                  "paletteIndex": 7,
                   "priority": false
                 },
                 {
@@ -761,7 +761,7 @@
                   "flipX": false,
                   "flipY": true,
                   "objPalette": "OBP0",
-                  "paletteIndex": 0,
+                  "paletteIndex": 7,
                   "priority": false
                 }
               ]

@@ -52,6 +52,11 @@
       "symbol": "var_movethread"
     },
     {
+      "id": "10",
+      "name": "HandsBeaten",
+      "symbol": "var_handsbeaten"
+    },
+    {
       "id": "0f4b1b14-3945-4cf0-8c2c-cb3d63d120a7__L0",
       "name": "NewGame",
       "symbol": "var_newgame"

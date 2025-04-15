@@ -9,7 +9,10 @@
   "height": 18,
   "type": "TOPDOWN",
   "paletteIds": [],
-  "spritePaletteIds": [],
+  "spritePaletteIds": [
+    "dmg",
+    ""
+  ],
   "collisions": "0f9+002+0f9+008c+0f14+00b4+",
   "autoFadeSpeed": 1,
   "symbol": "scene_3",

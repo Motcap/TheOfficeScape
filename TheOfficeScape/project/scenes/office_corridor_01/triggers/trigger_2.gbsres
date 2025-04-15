@@ -19,9 +19,16 @@
           "value": 1
         },
         "y": {
-          "type": "property",
-          "target": "player",
-          "property": "ypos"
+          "type": "add",
+          "valueA": {
+            "type": "property",
+            "target": "player",
+            "property": "ypos"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 30
+          }
         },
         "direction": "right",
         "fadeSpeed": "2"

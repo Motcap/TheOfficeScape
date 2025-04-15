@@ -15,7 +15,38 @@
   "symbol": "scene_6",
   "x": 1352,
   "y": 992,
-  "script": [],
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "gte",
+          "valueA": {
+            "type": "variable",
+            "value": "10"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 50
+          }
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "3b8b6898-c2fc-4c19-9208-77578a91ee3c"
+            },
+            "id": "0e3212b2-064f-4624-9b0f-862713c6d741"
+          }
+        ],
+        "false": []
+      },
+      "id": "4b2e581f-fe17-4a0c-ac6b-d89108560ad7"
+    }
+  ],
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": []
