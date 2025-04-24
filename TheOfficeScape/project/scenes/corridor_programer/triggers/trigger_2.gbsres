@@ -16,19 +16,11 @@
         "sceneId": "33ce5e08-3973-4ee1-82a9-da73473de6f1",
         "x": {
           "type": "number",
-          "value": 17
+          "value": 16
         },
         "y": {
-          "type": "sub",
-          "valueA": {
-            "type": "property",
-            "target": "player",
-            "property": "ypos"
-          },
-          "valueB": {
-            "type": "number",
-            "value": 30
-          }
+          "type": "number",
+          "value": 3
         },
         "direction": "left",
         "fadeSpeed": "2"

@@ -15,12 +15,13 @@
       "args": {
         "sceneId": "fb7c133e-61a0-4b0c-95ef-b4ac2fa50523",
         "x": {
-          "type": "number",
-          "value": 9
+          "type": "property",
+          "target": "player",
+          "property": "xpos"
         },
         "y": {
           "type": "number",
-          "value": 30
+          "value": 29
         },
         "direction": "",
         "fadeSpeed": "2"
