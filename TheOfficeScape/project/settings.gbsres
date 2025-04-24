@@ -20,13 +20,13 @@
     "default-ui"
   ],
   "defaultSpritePaletteIds": [
-    "29355a43-6dd0-450b-b4bf-e487a3701013",
+    "dmg",
     "default-bg-1",
-    "default-bg-3",
+    "29355a43-6dd0-450b-b4bf-e487a3701013",
     "default-bg-4",
     "default-bg-5",
     "default-bg-6",
-    "default-sprite",
+    "d3d8b21f-8647-436f-a2f6-3ed8fef283fe",
     "default-ui"
   ],
   "defaultSpritePaletteId": "default-sprite",
