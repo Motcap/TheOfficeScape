@@ -1,0 +1,177 @@
+{
+  "_resourceType": "scene",
+  "id": "477acfdb-31d1-4cbe-ab79-18a563ad326a",
+  "_index": 24,
+  "name": "Entrance",
+  "backgroundId": "8c5876ec-45ab-4e13-bb33-3dff89f0dff1",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "003+0f!004+0f!00e+0f!004+0f!00e+0f!004+0f!00b+0f5+002+0f4+002+0f8+009+0f!002+0f!005+0f2+009+0f4+005+0f2+0012+0f2+0012+0f2+0012+0f2+0012+0f2+0012+0f!0013+0f!0013+0f2+0012+0f2+008+0f2+008+0f2+007+0f4+007+0f2+007+0f!002+0f!007+0f6+002+0f2+002+0f9+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_25",
+  "x": 1480,
+  "y": 360,
+  "script": [
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "060b819c-16c7-496c-93c6-0165dd69ff37"
+      },
+      "id": "0cf14366-6b7b-4547-9a81-c7796b7d75d3"
+    },
+    {
+      "command": "EVENT_ACTOR_HIDE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "38ef8390-e23e-49d0-991e-42296b842ab1"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_MOVEMENT_SPEED",
+      "args": {
+        "actorId": "$self$",
+        "speed": 0.5
+      },
+      "id": "49bfee9f-c39f-4394-b2fc-dc67d0cef346"
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": 0.25,
+        "frames": 30
+      },
+      "id": "a9227e8e-b2b2-41ae-82f4-bc18d407968a"
+    },
+    {
+      "command": "EVENT_ACTOR_SHOW",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "2d873e81-39e9-451e-b8b9-0d8eff730541"
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": 0.2,
+        "frames": 30
+      },
+      "id": "6a158764-5598-4715-9193-ab6f61d7970c"
+    },
+    {
+      "command": "EVENT_ACTOR_MOVE_TO",
+      "args": {
+        "actorId": "$self$",
+        "x": {
+          "type": "number",
+          "value": 4
+        },
+        "y": {
+          "type": "number",
+          "value": 2
+        },
+        "moveType": "horizontal",
+        "useCollisions": false
+      },
+      "id": "27860bc6-bfe4-4f56-aa28-fc07581c6a33"
+    },
+    {
+      "command": "EVENT_ACTOR_MOVE_TO",
+      "args": {
+        "actorId": "$self$",
+        "x": {
+          "type": "number",
+          "value": 5
+        },
+        "y": {
+          "type": "number",
+          "value": 2
+        },
+        "moveType": "horizontal",
+        "useCollisions": false
+      },
+      "id": "11d246c9-5dde-4282-adb4-311f7e959d9a"
+    },
+    {
+      "command": "EVENT_ACTOR_MOVE_TO",
+      "args": {
+        "actorId": "$self$",
+        "x": {
+          "type": "number",
+          "value": 5
+        },
+        "y": {
+          "type": "number",
+          "value": 5
+        },
+        "moveType": "horizontal",
+        "useCollisions": false
+      },
+      "id": "b3ed7890-72a0-44b3-b156-298e15acfcd8"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_MOVEMENT_SPEED",
+      "args": {
+        "actorId": "$self$",
+        "speed": 1
+      },
+      "id": "b2777b07-1995-4362-965b-e59c6f0cd6cb"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Mi primer día.\n¡Qué  ilusión!"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "text",
+        "closeButton": "a",
+        "closeDelayTime": 1,
+        "closeDelayFrames": 30
+      },
+      "id": "cdb8682f-dec6-4e2e-a8ac-8c4876f7258d"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Tendré que llamar\na la puerta."
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "text",
+        "closeButton": "a",
+        "closeDelayTime": 1,
+        "closeDelayFrames": 30
+      },
+      "id": "c7243adc-6b6d-4f71-9a9d-01999382d5e4"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

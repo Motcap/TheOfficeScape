@@ -30,8 +30,8 @@
           {
             "command": "EVENT_ACTOR_EMOTE",
             "args": {
-              "actorId": "cf337fbc-fef4-4fd3-9b05-0b7ce2786e70",
-              "emoteId": "d508e529-57eb-458b-9782-66f318243c32"
+              "actorId": "bbfa75fd-5ad7-4d2b-854e-59e62e60c2ba",
+              "emoteId": "70a4ce25-1fe4-4ab1-aee9-21255e70fb76"
             },
             "id": "ef14fd1a-8e52-45d5-ba8a-66237083b96e"
           }

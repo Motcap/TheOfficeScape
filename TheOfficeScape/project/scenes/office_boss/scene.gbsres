@@ -15,33 +15,7 @@
   "symbol": "scene_14",
   "x": 1448,
   "y": 680,
-  "script": [
-    {
-      "command": "EVENT_TEXT",
-      "args": {
-        "text": [
-          "Vaya, parece que \nse han ido al \ngimnasio otra vez"
-        ],
-        "__section": "text",
-        "avatarId": "",
-        "minHeight": 4,
-        "maxHeight": 7,
-        "textX": 1,
-        "textY": 1,
-        "textHeight": 5,
-        "position": "bottom",
-        "clearPrevious": true,
-        "showFrame": "true",
-        "speedIn": -1,
-        "speedOut": -1,
-        "closeWhen": "key",
-        "closeButton": "a",
-        "closeDelayTime": 0.5,
-        "closeDelayFrames": 30
-      },
-      "id": "5f3307e6-46cc-458b-8708-e496b2d3db91"
-    }
-  ],
+  "script": [],
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": []

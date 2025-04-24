@@ -1,0 +1,71 @@
+{
+  "_resourceType": "trigger",
+  "id": "ff595496-789c-4754-be64-de5d8b0572f0",
+  "name": "",
+  "prefabId": "",
+  "x": 19,
+  "y": 10,
+  "symbol": "trigger_50",
+  "prefabScriptOverrides": {},
+  "width": 1,
+  "height": 2,
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "not",
+          "value": {
+            "type": "variable",
+            "value": "L0"
+          }
+        },
+        "__collapseElse": true,
+        "__disableElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "No, esta no es la puerta."
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "a02dd09a-7a74-44ac-b756-20df3669d577"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "L0",
+              "value": {
+                "type": "true"
+              }
+            },
+            "id": "3e672a39-029b-4d88-80ec-7b326b1512e6"
+          }
+        ],
+        "false": []
+      },
+      "id": "f3bf14df-3cf6-4cea-84a1-294ef1eae729"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 4
+}

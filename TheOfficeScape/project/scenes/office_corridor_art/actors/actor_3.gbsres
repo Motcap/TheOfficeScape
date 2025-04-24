@@ -20,7 +20,7 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "Porfavór, \ncomunícate conmigo \na trabes de Jira"
+          "Por favor, \ncomunícate conmigo \na través de Jira"
         ],
         "__section": "text",
         "avatarId": "",
@@ -44,7 +44,7 @@
     {
       "command": "EVENT_SET_VALUE",
       "args": {
-        "variable": "3",
+        "variable": "2",
         "value": {
           "type": "true"
         }
