@@ -13,8 +13,8 @@
   "collisions": "001f4+",
   "autoFadeSpeed": null,
   "symbol": "scene_12",
-  "x": 904,
-  "y": 216,
+  "x": 1216,
+  "y": 528,
   "script": [
     {
       "command": "EVENT_CAMERA_MOVE_TO",
@@ -85,7 +85,7 @@
     {
       "command": "EVENT_LOOP",
       "args": {
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "true": [

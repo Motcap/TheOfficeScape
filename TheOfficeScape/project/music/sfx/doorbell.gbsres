@@ -1,0 +1,9 @@
+{
+  "_resourceType": "music",
+  "id": "3699ecf5-b0f6-4654-a3bf-559d06a34b8c",
+  "name": "SFX/Doorbell",
+  "symbol": "song_sfx_doorbell",
+  "filename": "SFX/Doorbell.uge",
+  "settings": {},
+  "type": "uge"
+}

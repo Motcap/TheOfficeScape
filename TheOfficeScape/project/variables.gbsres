@@ -19,7 +19,7 @@
     {
       "id": "3",
       "name": "question_3",
-      "symbol": "var_question_3"
+      "symbol": "var_question_0"
     },
     {
       "id": "4",
@@ -145,6 +145,31 @@
       "id": "79d28868-2d91-4739-90f0-43e2b4972c17__L5",
       "name": "FrameCount",
       "symbol": "var_framecount_0"
+    },
+    {
+      "id": "4ecff817-fa49-4f02-a05e-11364d047a60__L0",
+      "name": "CrossedDoor",
+      "symbol": "var_crosseddoor"
+    },
+    {
+      "id": "4ecff817-fa49-4f02-a05e-11364d047a60__L1",
+      "name": "EscapeAttempts",
+      "symbol": "var_escapeattempts"
+    },
+    {
+      "id": "134713f1-bb07-40fe-94c8-06eba379fb76__L0",
+      "name": "CheckedDoor",
+      "symbol": "var_checkeddoor"
+    },
+    {
+      "id": "6b895c6c-1fe0-4031-be35-f6c1fcbdbcc2__L0",
+      "name": "CheckedElevator",
+      "symbol": "var_checkedelevator"
+    },
+    {
+      "id": "ff595496-789c-4754-be64-de5d8b0572f0__L0",
+      "name": "CheckedDoor",
+      "symbol": "var_checkeddoor_0"
     }
   ]
 }
