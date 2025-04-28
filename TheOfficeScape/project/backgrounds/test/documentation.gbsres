@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "9a4613bf-18a7-4648-a9da-71f7e8d75e26",
+  "name": "Test/Documentation",
+  "symbol": "bg_documentation",
+  "width": 10,
+  "height": 12,
+  "imageWidth": 80,
+  "imageHeight": 96,
+  "filename": "Test/Documentation.png",
+  "tileColors": "",
+  "autoColor": false
+}

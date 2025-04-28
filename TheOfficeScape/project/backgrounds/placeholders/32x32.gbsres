@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "1dd7bea6-5ff8-4617-9623-0ce7c519e638",
+  "name": "Placeholders/32x32",
+  "symbol": "bg_256x256",
+  "width": 32,
+  "height": 32,
+  "imageWidth": 256,
+  "imageHeight": 256,
+  "filename": "Placeholders/32x32.png",
+  "tileColors": "",
+  "autoColor": false
+}

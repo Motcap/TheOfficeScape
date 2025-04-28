@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "c1be99b8-841f-40c2-8e9a-c00d0568080d",
+  "name": "Corridor_Main_02",
+  "symbol": "bg_pasillo_2",
+  "width": 20,
+  "height": 64,
+  "imageWidth": 160,
+  "imageHeight": 512,
+  "filename": "Corridor_Main_02.png",
+  "tileColors": "",
+  "autoColor": false
+}

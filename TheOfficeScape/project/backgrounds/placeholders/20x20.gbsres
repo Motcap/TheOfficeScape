@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "13856617-40f9-4b46-95af-effc656cc2be",
+  "name": "Placeholders/20x20",
+  "symbol": "bg_160x160",
+  "width": 20,
+  "height": 20,
+  "imageWidth": 160,
+  "imageHeight": 160,
+  "filename": "Placeholders/20x20.png",
+  "tileColors": "",
+  "autoColor": false
+}

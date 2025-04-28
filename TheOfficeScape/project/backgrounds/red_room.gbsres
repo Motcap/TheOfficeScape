@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "6b95c869-29a8-459c-b51b-a2fcda99b9b3",
+  "name": "Red_Room",
+  "symbol": "bg_redroom",
+  "width": 20,
+  "height": 28,
+  "imageWidth": 160,
+  "imageHeight": 224,
+  "filename": "Red_Room.png",
+  "tileColors": "",
+  "autoColor": false
+}

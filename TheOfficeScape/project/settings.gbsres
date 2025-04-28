@@ -17,7 +17,7 @@
     "dmg",
     "default-bg-6",
     "dmg",
-    "default-ui"
+    "dmg"
   ],
   "defaultSpritePaletteIds": [
     "dmg",
@@ -32,7 +32,7 @@
   "defaultSpritePaletteId": "default-sprite",
   "defaultUIPaletteId": "default-ui",
   "playerPaletteId": "",
-  "defaultFontId": "4bd653f0-e08d-424e-9e5b-c1f3aaa21e47",
+  "defaultFontId": "9bf67160-7b43-4327-9eab-bce79f7027ae",
   "defaultCharacterEncoding": "",
   "defaultPlayerSprites": {
     "TOPDOWN": "fe97a4e8-0b6a-4f7f-9f35-bee1dbbe7371",

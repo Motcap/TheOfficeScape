@@ -1,0 +1,130 @@
+{
+  "_resourceType": "trigger",
+  "id": "d1e9d4b5-6e0b-441c-84a0-d8548cc75ebe",
+  "name": "shock_Store",
+  "prefabId": "",
+  "x": 1,
+  "y": 8,
+  "symbol": "trigger_43",
+  "prefabScriptOverrides": {},
+  "width": 4,
+  "height": 5,
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "lt",
+          "valueA": {
+            "type": "variable",
+            "value": "10"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 50
+          }
+        },
+        "__collapseElse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_MUSIC_PLAY",
+            "args": {
+              "musicId": "f21c5880-62a4-415d-88aa-2c4de8f0347b"
+            },
+            "id": "4deb7efb-4c2d-44d5-ac17-6be9974e1e73"
+          },
+          {
+            "command": "EVENT_ACTOR_EMOTE",
+            "args": {
+              "actorId": "$self$",
+              "emoteId": "edf96d29-9a08-4813-b2d3-46e0996f89f2"
+            },
+            "id": "a2928000-cd61-44a5-be64-08690b6791c9"
+          },
+          {
+            "command": "EVENT_WAIT",
+            "args": {
+              "time": 0.5,
+              "frames": 30
+            },
+            "id": "e5d8b8bb-4dec-4bfc-a6db-50106179ef19"
+          },
+          {
+            "command": "EVENT_GROUP",
+            "args": {
+              "__label": "Trigger Hand Mission"
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "Ains... qué melón.",
+                      "Ven, cierra los \nojos.",
+                      "Te voy a dar un \nmasajito."
+                    ],
+                    "__section": "text",
+                    "avatarId": "",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30
+                  },
+                  "id": "6f830836-168b-41db-a1d6-86f5b25dc963"
+                },
+                {
+                  "command": "EVENT_SOUND_PLAY_EFFECT",
+                  "args": {
+                    "type": "crash",
+                    "priority": "high",
+                    "pitch": 4,
+                    "frequency": 200,
+                    "duration": 0.5,
+                    "wait": true,
+                    "effect": 0
+                  },
+                  "id": "2d2de5f5-7db9-40ba-ad0f-ca0a516c30ec"
+                },
+                {
+                  "command": "EVENT_SWITCH_SCENE",
+                  "args": {
+                    "sceneId": "2fbf1512-78e5-48a6-9be3-b8010b189250",
+                    "x": {
+                      "type": "number",
+                      "value": 9
+                    },
+                    "y": {
+                      "type": "number",
+                      "value": 8
+                    },
+                    "direction": "",
+                    "fadeSpeed": "2"
+                  },
+                  "id": "e9e10f5e-08a0-4c7a-b8df-cfca652dbc71"
+                }
+              ]
+            },
+            "id": "f763f379-0bc4-4753-88d9-f4073fe719d7"
+          }
+        ],
+        "false": []
+      },
+      "id": "2deec3ae-b4cb-44a2-ae71-e016784ba747"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 1
+}

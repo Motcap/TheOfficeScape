@@ -29,7 +29,7 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "No, esta no es la puerta."
+                "No parece que esta\nsea la puerta."
               ],
               "__section": "text",
               "avatarId": "",
@@ -37,11 +37,11 @@
               "maxHeight": 7,
               "textX": 1,
               "textY": 1,
-              "textHeight": 5,
+              "textHeight": 16,
               "position": "bottom",
               "clearPrevious": true,
-              "showFrame": "true",
-              "speedIn": -1,
+              "showFrame": true,
+              "speedIn": 0,
               "speedOut": -1,
               "closeWhen": "key",
               "closeButton": "a",

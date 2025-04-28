@@ -1,0 +1,17 @@
+{
+  "_resourceType": "font",
+  "id": "9bf67160-7b43-4327-9eab-bce79f7027ae",
+  "name": "GRIM Mono DocTileSet",
+  "symbol": "font_grim_mono_doc",
+  "width": 128,
+  "height": 112,
+  "filename": "grim-mono-doc.png",
+  "mapping": {
+    "%A": 141,
+    "%B": 142,
+    "←": 173,
+    "→": 157,
+    "↑": 158,
+    "↓": 189
+  }
+}

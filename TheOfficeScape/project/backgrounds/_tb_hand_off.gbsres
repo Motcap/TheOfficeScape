@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "8e0b7270-1a5e-4ee9-987e-4d30b134889f",
+  "name": "_TB_Hand_Off",
+  "symbol": "bg_tb_handoff",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "_TB_Hand_Off.png",
+  "tileColors": "",
+  "autoColor": false
+}

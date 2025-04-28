@@ -1,0 +1,22 @@
+{
+  "_resourceType": "scene",
+  "id": "b034a439-1ec0-4a49-805c-29d0087e20f3",
+  "_index": 27,
+  "name": "GRID_CORNER",
+  "backgroundId": "13856617-40f9-4b46-95af-effc656cc2be",
+  "tilesetId": "",
+  "width": 20,
+  "height": 20,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_28",
+  "x": 96,
+  "y": 88,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

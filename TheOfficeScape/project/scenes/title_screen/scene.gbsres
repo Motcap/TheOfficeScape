@@ -13,8 +13,8 @@
   "collisions": "001f4+",
   "autoFadeSpeed": null,
   "symbol": "scene_12",
-  "x": 1216,
-  "y": 528,
+  "x": 2040,
+  "y": 1136,
   "script": [
     {
       "command": "EVENT_CAMERA_MOVE_TO",
@@ -71,14 +71,14 @@
           "start",
           "select"
         ],
-        "__collapse": true
+        "__collapse": false
       },
       "id": "27e7667f-b0be-4d74-bbaa-bd59b4adc0bd"
     },
     {
       "command": "EVENT_RNG_SEED",
       "args": {
-        "__collapse": true
+        "__collapse": false
       },
       "id": "15e56db1-7429-4d44-88e6-2fcad2c37888"
     },
@@ -93,8 +93,8 @@
             "command": "EVENT_CHOICE",
             "args": {
               "variable": "L0",
-              "trueText": "New Game",
-              "falseText": "Continue"
+              "trueText": "Nueva partida",
+              "falseText": "Continuar"
             },
             "id": "26292448-63fc-4550-a1e4-9ed15aedac84"
           },
@@ -149,7 +149,7 @@
                         "command": "EVENT_TEXT",
                         "args": {
                           "text": [
-                            "No Save Data\nFound..."
+                            "No se han \nencontrado datos\nde guardado..."
                           ],
                           "__section": "text",
                           "avatarId": "",

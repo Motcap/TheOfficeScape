@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "9c09c4c2-1f0b-41c4-afa6-a1a6cb1f97d3",
+  "name": "Corridor_Kitchen_WC",
+  "symbol": "bg_wc_kichen",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "Corridor_Kitchen_WC.png",
+  "tileColors": "",
+  "autoColor": false
+}

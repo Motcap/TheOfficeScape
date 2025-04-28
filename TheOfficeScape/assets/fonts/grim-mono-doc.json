@@ -1,0 +1,9 @@
+{
+  "name": "GRIM Mono DocTileSet",
+  "mapping": {
+    "←": 173,
+    "→": 157,
+    "↑": 158,
+    "↓": 189
+  }
+}

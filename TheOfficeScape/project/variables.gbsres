@@ -57,6 +57,11 @@
       "symbol": "var_handsbeaten"
     },
     {
+      "id": "511",
+      "name": "Variable 511",
+      "symbol": "var_variable_511"
+    },
+    {
       "id": "0f4b1b14-3945-4cf0-8c2c-cb3d63d120a7__L0",
       "name": "NewGame",
       "symbol": "var_newgame"

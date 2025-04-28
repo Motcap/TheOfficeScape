@@ -1,0 +1,36 @@
+{
+  "_resourceType": "script",
+  "id": "4805001c-2079-442f-9e67-c9a98dc75434",
+  "name": "Display - DOCUMENTATION",
+  "description": "",
+  "variables": {},
+  "actors": {},
+  "symbol": "script_5",
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "!S0!ÙÂÃÄÅÆÄÈÊâ\nÙËÌÄÎÏÃÐÂã\nÙÙÙÙÙÙÙÙÙã\nÙÛÜÛÙÙÙÙÙã\nÙÑÒÔÕÖÑÕÙã\nÙÑÕØÙÙÙÙÙã\nÙÙÙÙÙÙÙÙÙã\nÙÖ×ÑÑÖÑÕÑã\nÙÖÑÕÑÕØ¢£ã\nÙ×ÕÒ××Ø¤¥ã\näååååååååæ"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 18,
+        "maxHeight": 18,
+        "textX": 5,
+        "textY": 3,
+        "textHeight": 18,
+        "position": "top",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": 0,
+        "speedOut": 1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "29b61fc8-57f4-4111-a4ea-0077592dd8e5"
+    }
+  ]
+}

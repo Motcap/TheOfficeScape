@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "f6ed37ce-c11d-4f44-bedf-2a59c7bc2bb5",
+  "name": "Big_Room",
+  "symbol": "bg_bigroom",
+  "width": 32,
+  "height": 64,
+  "imageWidth": 256,
+  "imageHeight": 512,
+  "filename": "Big_Room.png",
+  "tileColors": "",
+  "autoColor": false
+}

@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "6eebcce5-884b-465d-9830-847f156ec1e4",
+  "name": "Corridor_Animation",
+  "symbol": "bg_corridor_1",
+  "width": 20,
+  "height": 48,
+  "imageWidth": 160,
+  "imageHeight": 384,
+  "filename": "Corridor_Animation.png",
+  "tileColors": "",
+  "autoColor": false
+}

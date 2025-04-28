@@ -13,8 +13,8 @@
   "collisions": "",
   "autoFadeSpeed": 1,
   "symbol": "scene_21",
-  "x": 296,
-  "y": 48,
+  "x": 1120,
+  "y": 656,
   "script": [
     {
       "command": "EVENT_SET_INPUT_SCRIPT",

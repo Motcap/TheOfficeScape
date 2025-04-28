@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "fe52f97d-555f-43fe-b885-c8a2e6317092",
+  "name": "Placeholders/64x64",
+  "symbol": "bg_512x512",
+  "width": 64,
+  "height": 64,
+  "imageWidth": 512,
+  "imageHeight": 512,
+  "filename": "Placeholders/64x64.png",
+  "tileColors": "",
+  "autoColor": false
+}

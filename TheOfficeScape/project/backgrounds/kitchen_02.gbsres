@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "b42ca497-f654-4b05-bb65-5bbc9f611728",
+  "name": "Kitchen_02",
+  "symbol": "bg_cocina_2",
+  "width": 20,
+  "height": 32,
+  "imageWidth": 160,
+  "imageHeight": 256,
+  "filename": "Kitchen_02.png",
+  "tileColors": "",
+  "autoColor": false
+}

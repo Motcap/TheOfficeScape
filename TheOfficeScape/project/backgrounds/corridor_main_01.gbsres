@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "efcd1bcc-e09e-4798-8a01-4dcc37e91441",
+  "name": "Corridor_Main_01",
+  "symbol": "bg_halltocorridor",
+  "width": 20,
+  "height": 48,
+  "imageWidth": 160,
+  "imageHeight": 384,
+  "filename": "Corridor_Main_01.png",
+  "tileColors": "",
+  "autoColor": false
+}

@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "16b43252-1073-4041-be6c-b74a71710141",
+  "name": "Corridor_Programming",
+  "symbol": "bg_programcorridormitico",
+  "width": 20,
+  "height": 48,
+  "imageWidth": 160,
+  "imageHeight": 384,
+  "filename": "Corridor_Programming.png",
+  "tileColors": "",
+  "autoColor": false
+}

@@ -10,11 +10,11 @@
   "type": "TOPDOWN",
   "paletteIds": [],
   "spritePaletteIds": [],
-  "collisions": "00168+",
+  "collisions": "",
   "autoFadeSpeed": 1,
   "symbol": "scene_13",
-  "x": 1216,
-  "y": 352,
+  "x": 2040,
+  "y": 960,
   "script": [
     {
       "command": "EVENT_ACTOR_DEACTIVATE",

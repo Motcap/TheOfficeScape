@@ -1,0 +1,25 @@
+{
+  "_resourceType": "scene",
+  "id": "217085c8-6440-4e09-ba79-edeb091e5f6e",
+  "_index": 19,
+  "name": "Kitchen 01",
+  "backgroundId": "7c278637-b125-49c8-bb38-4c240668448d",
+  "tilesetId": "",
+  "width": 20,
+  "height": 32,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [
+    "dmg",
+    ""
+  ],
+  "collisions": "0f!0012+0f2+0012+0f2+0012+0f2+0012+0f2+0012+0f2+0012+0f2+0012+0f2+0012+0f2+0012+0f2+0012+0f2+0012+0f2+0012+0f2+0012+0f2+0012+0f2+0012+0f2+0012+0f2+0012+0f2+0012+0f2+0012+0f2+0012+0f2+0012+0f2+0012+0f2+0012+0f2+0012+0f2+0012+0f2+0012+0f2+0012+0f2+0012+0f2+0012+0f2+0012+0f2+0012+0fa+002+0f9+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_20",
+  "x": 2608,
+  "y": 1840,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

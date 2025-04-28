@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "fbd97132-b530-4df5-bd26-ca9cfa051cca",
+  "name": "Boss_Office",
+  "symbol": "bg_bigboss",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "Boss_Office.png",
+  "tileColors": "",
+  "autoColor": false
+}
