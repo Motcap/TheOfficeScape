@@ -7,8 +7,6 @@
   "height": 112,
   "filename": "grim-mono-doc.png",
   "mapping": {
-    "%A": 141,
-    "%B": 142,
     "←": 173,
     "→": 157,
     "↑": 158,
