@@ -20,7 +20,7 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "Aquí puedes ver\ntu progreso."
+          "Aquí puedes ver\ntus trofeos."
         ],
         "__section": "text",
         "avatarId": "",
